@@ -1,0 +1,16 @@
+git status              # Check changes
+git add file.txt        # Stage file
+git add .               # Stage all files
+git commit -m "message" # Commit changes
+git push                # Push to remote
+git pull                # Pull latest changes
+
+
+git branch              # List branches
+git branch new-branch   # Create branch
+git checkout new-branch # Switch branch
+git switch new-branch   # Modern way
+git checkout -b new-branch  # Create + switch
+
+git merge branch-name   # Merge branch
+git branch -d branch-name   # Delete branch
